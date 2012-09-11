@@ -1,0 +1,8 @@
+.strength,
+.blog-info .rating,
+.blog-top .vote-topic { display: none; }
+
+.table a.asc:after,
+.table a.desc:after { content: ""; }
+.table .cell-tab-inner.active a.asc:after { content: " ↑"; }
+.table .cell-tab-inner.active a.desc:after { content: " ↓"; }

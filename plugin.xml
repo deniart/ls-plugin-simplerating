@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Simple Rating</lang>
+	</name>
+	<author>
+		<lang name="default">deniart</lang>
+	</author>
+	<homepage>http://deniart.ru</homepage>
+	<version>1.0</version>
+	<requires>
+		<livestreet>1.0.1</livestreet>
+		<plugins>
+		</plugins>
+	</requires>
+	<description>
+		<lang name="default">Упрощенная система рейтинга</lang>
+		<lang name="russian">Упрощенная система рейтинга</lang>
+	</description>
+</plugin>
