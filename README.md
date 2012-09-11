@@ -1,0 +1,2 @@
+ls-plugin-simplerating
+======================
