@@ -6,7 +6,11 @@
 			{if $oBlog->getType()=='close'}<i title="{$aLang.blog_closed}" class="icon icon-lock"></i>{/if}
 			<a href="{$oBlog->getUrlFull()}">{$oBlog->getTitle()|escape:'html'}</a>
 			
-			<p>{$aLang.blogs_readers}: <strong>{$oBlog->getCountUser()}</strong></p>
+			{if {cfg name='plugin.simplerating.sort_blogs_by_count_user'}}
+				<p>{$aLang.blogs_readers}: <strong>{$oBlog->getCountUser()}</strong></p>
+			{else}
+				<p>{$aLang.infobox_blog_topics}: <strong>{$oBlog->getCountTopic()}</strong></p>
+			{/if}
 		</li>
 	{/foreach}
 </ul>				

@@ -6,7 +6,11 @@
 				{if $oBlog->getType()=='close'}<i title="{$aLang.blog_closed}" class="icon-synio-topic-private"></i>{/if}
 			{/strip}
 			
-			<strong>{$oBlog->getCountUser()}</strong>
+			{if {cfg name='plugin.simplerating.sort_blogs_by_count_user'}}
+				<strong>{$oBlog->getCountUser()}</strong>
+			{else}
+				<strong>{$oBlog->getCountTopic()}</strong>
+			{/if}
 		</li>
 	{/foreach}
 </ul>				
