@@ -1,4 +1,4 @@
-# Simple Rating 1.1
+# Simple Rating 1.2
 
 Плагин для Livestreet 1.0.1 
 
@@ -20,3 +20,4 @@
 * developer
 * synio
 * social
+* simple
