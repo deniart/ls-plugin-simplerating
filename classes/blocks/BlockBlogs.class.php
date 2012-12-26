@@ -1,6 +1,6 @@
 <?php
 
-class PluginSimplerating_BlockBlogs extends PluginSimplerating_Inherit_Block {
+class PluginSimplerating_BlockBlogs extends PluginSimplerating_Inherit_BlockBlogs {
 	public function Exec() {
 		$sOrderBlogsBy = Config::Get('plugin.simplerating.sort_blogs_by_count_user') ? 'blog_count_user' : 'blog_count_topic';
 
