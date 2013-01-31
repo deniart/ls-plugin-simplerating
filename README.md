@@ -1,4 +1,4 @@
-# Simple Rating 1.2
+# Simple Rating 1.3
 
 Плагин для Livestreet 1.0.1+
 
