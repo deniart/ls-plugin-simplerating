@@ -22,7 +22,7 @@ class PluginSimplerating extends Plugin {
 
     protected $aInherits = array(
        'action' => array('ActionBlogs', 'ActionAjax'), 
-       'module' => array('ModuleRating', 'ModuleBlog'), 
+       'module' => array('ModuleRating', 'ModuleBlog', 'ModuleStream'), 
        'mapper' => array('ModuleBlog_MapperBlog'), 
        'block' => array('BlockBlogs'), 
     );
